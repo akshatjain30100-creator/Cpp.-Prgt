@@ -14,7 +14,21 @@ int main()
       {
       printf ("* ");
       }
-    }
+      else
+      {
+      printf ("$ ");  
+      }
+   for ( c = 1; c <= r; c++ )
+    {
+      if ( c % 2 == 1)
+      {
+      printf ("* ");
+      }
+      else
+      {
+      printf ("$ ");
+      }
     printf ("\n");
   }
+   return 0;
 }
